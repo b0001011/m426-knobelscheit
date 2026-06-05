@@ -3,7 +3,7 @@
         
       <head>
         <meta charset='utf-8'>
-        <title>Coverage report for all files</title>
+        <title>Coverage report for dice.ts</title>
         <style>/* Copyright 2015 the Istanbul contributors. All rights reserved. ISC license. */
 /* Copyright 2018-2023 the Deno authors. All rights reserved. MIT license. */
 
@@ -457,22 +457,22 @@ document.documentElement.classList.add(theme);
             
       <div class='pad1 flex-header'>
         <div>
-          <h1>All files</h1>
+          <h1><a href='index.html'>All files</a> / dice.ts</h1>
           <div class='clearfix'>
             <div class='fl pad1y space-right2'>
-              <span class='strong'>87.50%</span>
+              <span class='strong'>100.00%</span>
               <span class='quiet'>Branches</span>
-              <span class='fraction'>7/8</span>
+              <span class='fraction'>0/0</span>
             </div>
             <div class='fl pad1y space-right2'>
               <span class='strong'>100.00%</span>
               <span class='quiet'>Functions</span>
-              <span class='fraction'>6/6</span>
+              <span class='fraction'>1/1</span>
             </div>
             <div class='fl pad1y space-right2'>
-              <span class='strong'>91.18%</span>
+              <span class='strong'>100.00%</span>
               <span class='quiet'>Lines</span>
-              <span class='fraction'>31/34</span>
+              <span class='fraction'>5/5</span>
             </div>
           </div>
         </div>
@@ -532,67 +532,33 @@ document.documentElement.classList.add(theme);
       </div>
       <div class='status-line high'></div>
             <div class='pad1 overflow-auto'>
-              
-      <table class='coverage-summary'>
-        <thead>
-          <tr>
-            <th class='file'>File</th>
-            <th class='pic'></th>
-            <th class='pct'>Branches</th>
-            <th class='abs'></th>
-            <th class='pct'>Functions</th>
-            <th class='abs'></th>
-            <th class='pct'>Lines</th>
-            <th class='abs'></th>
-          </tr>
-        </thead>
-        <tbody>
-          
-      <tr>
-        <td class='file high'><a href='board.ts.html'>board.ts</a></td>
-        <td class='pic high'>
-          <div class='chart'>
-            <div class='cover-fill' style='width: 88.0%'></div><div class='cover-empty' style='width: calc(100% - 88.0%)'></div>
-          </div>
-        </td>
-        <td class='pct high'>87.50%</td>
-        <td class='abs high'>7/8</td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>4/4</td>
-        <td class='pct high'>88.00%</td>
-        <td class='abs high'>22/25</td>
-      </tr>
+              <table class='coverage'>
+        <tr>
+          <td class='line-count quiet'><pre><a href='#L1' id='L1'>1</a>
+<a href='#L2' id='L2'>2</a>
+<a href='#L3' id='L3'>3</a>
+<a href='#L4' id='L4'>4</a>
+<a href='#L5' id='L5'>5</a>
+<a href='#L6' id='L6'>6</a></pre></td>
+          <td class='line-coverage quiet'><pre><span class='cline-any cline-yes' title='This line is covered 1 time'>x1</span>
+<span class='cline-any cline-neutral'>&nbsp;</span>
+<span class='cline-any cline-yes' title='This line is covered 1 time'>x1</span>
+<span class='cline-any cline-yes' title='This line is covered 1 time'>x1</span>
+<span class='cline-any cline-yes' title='This line is covered 1 time'>x1</span>
+<span class='cline-any cline-yes' title='This line is covered 1 time'>x1</span></pre></td>
+          <td class='branch-coverage quiet'><pre>
 
-      <tr>
-        <td class='file high'><a href='demo.ts.html'>demo.ts</a></td>
-        <td class='pic high'>
-          <div class='chart'>
-            <div class='cover-fill' style='width: 100.0%'></div><div class='cover-empty' style='width: calc(100% - 100.0%)'></div>
-          </div>
-        </td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>0/0</td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>1/1</td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>4/4</td>
-      </tr>
 
-      <tr>
-        <td class='file high'><a href='dice.ts.html'>dice.ts</a></td>
-        <td class='pic high'>
-          <div class='chart'>
-            <div class='cover-fill' style='width: 100.0%'></div><div class='cover-empty' style='width: calc(100% - 100.0%)'></div>
-          </div>
-        </td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>0/0</td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>1/1</td>
-        <td class='pct high'>100.00%</td>
-        <td class='abs high'>5/5</td>
-      </tr>
-        </tbody>
+
+
+</pre></td>
+          <td class='text'><pre class='prettyprint'>export  function roll(): [number, number] {
+
+    const d1 = Math.floor(Math.random() * 6) + 1 ;
+    const d2 = Math.floor(Math.random() * 6) + 1;
+    return [d1, d2];
+}</pre></td>
+        </tr>
       </table>
             </div>
             <div class='push'></div>
