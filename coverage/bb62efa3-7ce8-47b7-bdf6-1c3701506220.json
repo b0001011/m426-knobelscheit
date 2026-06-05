@@ -1,0 +1,28 @@
+{
+  "scriptId": "314",
+  "url": "file:///C:/Users/ustal/OneDrive%20-%20sluz/M426/Pair%20Programming/m426-knobelscheit/demo.ts",
+  "functions": [
+    {
+      "functionName": "",
+      "ranges": [
+        {
+          "startOffset": 0,
+          "endOffset": 117,
+          "count": 1
+        }
+      ],
+      "isBlockCoverage": true
+    },
+    {
+      "functionName": "formattedAddition",
+      "ranges": [
+        {
+          "startOffset": 7,
+          "endOffset": 78,
+          "count": 3
+        }
+      ],
+      "isBlockCoverage": true
+    }
+  ]
+}
